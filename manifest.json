@@ -1,0 +1,24 @@
+{
+	"name": "Twitter Visible Alt Text",
+	"version": "1.0.0",
+	"description": "Makes alt text visible for sighted users",
+	"manifest_version": 2,
+	"icons": {
+  	"48": "icon-48.png",
+  	"96": "icon-96.png"
+	},
+	"content_scripts": [
+		{
+			"run_at": "document_start",
+			"matches": [
+				"https://twitter.com/*"
+			],
+			"css": [
+				"content.css"
+			],
+			"js": [
+				"content.js"
+			]
+		}
+	]
+}

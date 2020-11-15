@@ -1,0 +1,22 @@
+{
+  "name": "twitter-visible-alt-text",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx web-ext run --firefox=nightly --start-url twitter.com",
+    "build": "npx web-ext build --ignore-files package*",
+    "lint": "npx web-ext lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eschafer/twitter-visible-alt-text.git"
+  },
+  "author": "Elizabeth Schafer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eschafer/twitter-visible-alt-text/issues"
+  },
+  "homepage": "https://github.com/eschafer/twitter-visible-alt-text#readme",
+  "devDependencies": {
+    "web-ext": "^4.3.0"
+  }
+}
